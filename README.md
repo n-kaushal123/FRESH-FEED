@@ -23,4 +23,4 @@ BBC News,The Kathmandu Post
  https://n-kaushal123.github.io/FRESH-FEED/
 2. Open in VS Code with Live Server extension
 
-## Made by Nisha Kaushal
+
