@@ -36,7 +36,7 @@ async function loadAllFeeds() {
   buildCategoryNav();
   renderCards(allArticles);
 }
-// Date & Time
+
 function updateDateTime() {
   const now = new Date();
   const options = {
@@ -110,7 +110,6 @@ function renderCards(articles) {
     .join("");
 }
 
-// --- Search box ---
 document.getElementById("searchBox").addEventListener("input", (e) => {
   const query = e.target.value.toLowerCase();
   const source =
